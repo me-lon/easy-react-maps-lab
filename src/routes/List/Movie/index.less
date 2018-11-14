@@ -1,0 +1,25 @@
+@import '~antd/lib/style/themes/default.less';
+
+.layout {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    width: 1000px;
+    margin: 16px auto;
+    padding: 0 16px;
+    .content {
+        display: flex;
+        .sublayout {
+            .header {
+                padding: 0 16px;
+            }
+            .content {
+                margin-top: 16px;
+                padding: 0 16px;
+            }
+        }
+    }
+    .sider {
+        padding: 0;
+    }
+}
